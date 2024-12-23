@@ -1,5 +1,6 @@
 var element;
 
-element=document.querySelectorAll(".call-to-action");
+document.querySelectorAll(".services-container").style.color="black";
+element=document.querySelectorAll(".services-container");
 
 console.log(element);
