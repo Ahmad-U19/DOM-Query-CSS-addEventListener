@@ -9,4 +9,9 @@ document.querySelector("#logo").classList.add("xyz","abc");
 
 element=document.querySelector("#logo").classList;
 
-console.log(element);
+document.getElementById("#logos p").onmouseenter=abc();
+
+function abc(){
+    document.getElementById("#logos p").style.color="crimson";
+}
+//console.log(element);
